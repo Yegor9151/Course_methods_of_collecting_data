@@ -1,10 +1,7 @@
+# Парсер репозиториев юзера по API
+
 import requests
 import json
-
-#   Задача 1
-#   Посмотреть документацию к API GitHub,
-#   разобраться как вывести список репозиториев для конкретного пользователя,
-#   сохранить JSON-вывод в файле *.json.
 
 # записываем пример: "https://api.github.com/users/{user}/repos{?type,page,per_page,sort}"
 main_link = 'https://api.github.com'    # создаём основную ссылку
