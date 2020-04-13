@@ -4,7 +4,7 @@ import requests
 import json
 
 # записываем пример: "https://api.github.com/users/{user}/repos{?type,page,per_page,sort}"
-main_link = 'https://api.github.com'    # создаём основную ссылку
+main_link = 'https://api.github.com'    # создаём основную ссылку 
 user = 'Yegor9151'                      # записываем пользователя
 repos = f'/users/{user}/repos'          # создаём путь к репозиторию
 
