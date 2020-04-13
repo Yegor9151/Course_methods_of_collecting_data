@@ -18,7 +18,7 @@ class HHParser:
 
         addition = 'search/vacancy'
 
-        params = f'?L_save_area=true&clusters=true&enable_snippets=true&text={key}&showClusters=true&page={num}'
+        params = f'?text={key}&page={num}'
         link = self.path + addition + params
 
         return link
@@ -26,10 +26,7 @@ class HHParser:
     def get_html(self, link):
         '''получение html кода'''
 
-        headers = {'User-Agent':
-                       'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36'}
-
-        html = requests.get(link, headers=headers).text
+        html = requests.get(link, headers='').text
 
         return html
 
