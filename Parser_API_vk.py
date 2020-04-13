@@ -1,8 +1,5 @@
 import requests
 
-# Задача 2
-# Выполнить запрос методом GET к ресурсам, использующим любой тип авторизации через Postman, Python.
-
 main_link = 'https://oauth.vk.com/authorize'
 
 client_id = 'client_id=7399273'
