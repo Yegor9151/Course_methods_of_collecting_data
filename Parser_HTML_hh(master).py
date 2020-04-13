@@ -11,6 +11,7 @@ class HHParser:
     '''Парсинг вакансий'''
 
     def __init__(self, link):
+        '''берём основную ссылку'''
         self.path = link
 
     def create_links(self, key, num):
