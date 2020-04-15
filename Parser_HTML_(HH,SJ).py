@@ -243,8 +243,8 @@ class SJParser:
         '''сохдаём базу данных и сохраняем'''
 
         df = pd.DataFrame(self.collect_pages())
-        df.to_csv('JSVacancy.csv', index=False)
-        df_read = pd.read_csv('JSVacancy.csv')
+        df.to_csv('SJVacancy.csv', index=False)
+        df_read = pd.read_csv('SJVacancy.csv')
 
         return df_read
 
