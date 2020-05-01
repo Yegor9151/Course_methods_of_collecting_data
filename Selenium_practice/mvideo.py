@@ -53,7 +53,7 @@ class CollectHits:
         return result
 
     def create_dict(self, text):
-        '''составляем словаль'''
+        '''составляем словарь'''
 
         result = []
 
